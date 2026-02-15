@@ -1,0 +1,713 @@
+{
+  "pdf_file": "Dixon_2025.pdf",
+  "extraction_stats": {
+    "total_characters": 165897,
+    "total_words": 25300,
+    "total_lines": 2992,
+    "total_pages": 50,
+    "pages_with_content": 50,
+    "avg_chars_per_page": 3315.94,
+    "method": "digital"
+  },
+  "compliance_results": {
+    "summary": {
+      "total_checks": 38,
+      "compliant": 9,
+      "non_compliant": 24,
+      "missing": 5,
+      "total_weight": 251,
+      "achieved_weight": 64,
+      "compliance_score": 25.5
+    },
+    "detailed_results": [
+      {
+        "standard_id": "IndAS-1",
+        "standard_name": "Presentation of Financial Statements",
+        "category": "financial_statements",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS1-1",
+            "requirement": "Balance Sheet / Statement of Financial Position",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 10,
+            "evidence": null,
+            "keywords_searched": [
+              "balance sheet",
+              "statement of financial position",
+              "assets and liabilities"
+            ]
+          },
+          {
+            "check_id": "IndAS1-2",
+            "requirement": "Statement of Profit and Loss",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 10,
+            "evidence": null,
+            "keywords_searched": [
+              "profit and loss",
+              "statement of profit",
+              "income statement",
+              "profit or loss"
+            ]
+          },
+          {
+            "check_id": "IndAS1-3",
+            "requirement": "Statement of Cash Flows",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 10,
+            "evidence": null,
+            "keywords_searched": [
+              "cash flow statement",
+              "statement of cash flows",
+              "cash flows from"
+            ]
+          },
+          {
+            "check_id": "IndAS1-4",
+            "requirement": "Statement of Changes in Equity",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": null,
+            "keywords_searched": [
+              "changes in equity",
+              "statement of changes in equity",
+              "equity movement"
+            ]
+          },
+          {
+            "check_id": "IndAS1-5",
+            "requirement": "Notes to Financial Statements",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 10,
+            "evidence": null,
+            "keywords_searched": [
+              "notes to accounts",
+              "notes forming part",
+              "notes to financial statements",
+              "accounting policies"
+            ]
+          },
+          {
+            "check_id": "IndAS1-6",
+            "requirement": "Comparative Information",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "previous year",
+              "comparative",
+              "prior period",
+              "corresponding figures"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 6
+      },
+      {
+        "standard_id": "IndAS-7",
+        "standard_name": "Statement of Cash Flows",
+        "category": "cash_flow",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS7-1",
+            "requirement": "Cash Flows from Operating Activities",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": null,
+            "keywords_searched": [
+              "cash flow from operating",
+              "operating activities",
+              "cash generated from operations"
+            ]
+          },
+          {
+            "check_id": "IndAS7-2",
+            "requirement": "Cash Flows from Investing Activities",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": ". type, material terms and particulars of the proposed transactions a) sale & purchase of goods; b) purchase of fixed assets and; c) availment and rendering of services to meet the business objectives/ requirements. further,",
+            "keywords_searched": [
+              "cash flow from investing",
+              "investing activities",
+              "purchase of fixed assets",
+              "sale of investments"
+            ]
+          },
+          {
+            "check_id": "IndAS7-3",
+            "requirement": "Cash Flows from Financing Activities",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": null,
+            "keywords_searched": [
+              "cash flow from financing",
+              "financing activities",
+              "proceeds from borrowings",
+              "repayment of borrowings"
+            ]
+          },
+          {
+            "check_id": "IndAS7-4",
+            "requirement": "Net Increase/Decrease in Cash",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "net increase in cash",
+              "net decrease in cash",
+              "cash and cash equivalents at the end"
+            ]
+          }
+        ],
+        "compliant_count": 1,
+        "total_count": 4
+      },
+      {
+        "standard_id": "IndAS-8",
+        "standard_name": "Accounting Policies, Changes in Estimates and Errors",
+        "category": "policies",
+        "priority": "MEDIUM",
+        "checks": [
+          {
+            "check_id": "IndAS8-1",
+            "requirement": "Significant Accounting Policies",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 7,
+            "evidence": null,
+            "keywords_searched": [
+              "significant accounting policies",
+              "accounting policies",
+              "basis of preparation"
+            ]
+          },
+          {
+            "check_id": "IndAS8-2",
+            "requirement": "Changes in Accounting Policies",
+            "status": "MISSING",
+            "symbol": "⚠️",
+            "mandatory": false,
+            "weight": 3,
+            "evidence": null,
+            "keywords_searched": [
+              "change in accounting policy",
+              "retrospective application",
+              "change in estimate"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 2
+      },
+      {
+        "standard_id": "IndAS-10",
+        "standard_name": "Events After the Reporting Period",
+        "category": "subsequent_events",
+        "priority": "MEDIUM",
+        "checks": [
+          {
+            "check_id": "IndAS10-1",
+            "requirement": "Date of Authorization",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 4,
+            "evidence": null,
+            "keywords_searched": [
+              "date of authorization",
+              "authorized for issue",
+              "date when financial statements were authorized"
+            ]
+          },
+          {
+            "check_id": "IndAS10-2",
+            "requirement": "Events After Reporting Period Disclosure",
+            "status": "MISSING",
+            "symbol": "⚠️",
+            "mandatory": false,
+            "weight": 3,
+            "evidence": null,
+            "keywords_searched": [
+              "events after reporting period",
+              "subsequent events",
+              "events after balance sheet date"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 2
+      },
+      {
+        "standard_id": "IndAS-12",
+        "standard_name": "Income Taxes",
+        "category": "taxation",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS12-1",
+            "requirement": "Current Tax",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 6,
+            "evidence": null,
+            "keywords_searched": [
+              "current tax",
+              "tax expense",
+              "income tax expense"
+            ]
+          },
+          {
+            "check_id": "IndAS12-2",
+            "requirement": "Deferred Tax Assets/Liabilities",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 7,
+            "evidence": null,
+            "keywords_searched": [
+              "deferred tax",
+              "deferred tax asset",
+              "deferred tax liability"
+            ]
+          },
+          {
+            "check_id": "IndAS12-3",
+            "requirement": "Tax Reconciliation",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "reconciliation of tax expense",
+              "effective tax rate",
+              "tax reconciliation"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 3
+      },
+      {
+        "standard_id": "IndAS-16",
+        "standard_name": "Property, Plant and Equipment",
+        "category": "fixed_assets",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS16-1",
+            "requirement": "PPE Reconciliation/Movement",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": "t the date of declaration, to those members whose names of physical attendance of members has been appears on the register of members as on tuesday, 16th dispensed with. accordingly, in terms of septembe",
+            "keywords_searched": [
+              "property plant and equipment",
+              "ppe",
+              "fixed assets",
+              "gross block",
+              "reconciliation of carrying amount"
+            ]
+          },
+          {
+            "check_id": "IndAS16-2",
+            "requirement": "Depreciation",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 7,
+            "evidence": null,
+            "keywords_searched": [
+              "depreciation",
+              "accumulated depreciation",
+              "depreciation rate",
+              "useful life"
+            ]
+          },
+          {
+            "check_id": "IndAS16-3",
+            "requirement": "Additions and Disposals",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": "_even no. you to select the “even” i.e., ‘dixon technologies (india) limited - (b) members who have acquired shares after the agm” and click on “submit”. dispatch of the annual report and or on before the cut",
+            "keywords_searched": [
+              "additions",
+              "disposals",
+              "deletions",
+              "acquired",
+              "sold"
+            ]
+          }
+        ],
+        "compliant_count": 2,
+        "total_count": 3
+      },
+      {
+        "standard_id": "IndAS-18",
+        "standard_name": "Revenue from Contracts with Customers",
+        "category": "revenue",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS18-1",
+            "requirement": "Revenue Recognition",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": "per sebi listing regulations. 3. type, material terms and particulars of the proposed transactions sale of products and services. further, proposed transactions are in ordinary course of business and at an arms-leng",
+            "keywords_searched": [
+              "revenue from operations",
+              "revenue recognition",
+              "sale of products",
+              "rendering of services"
+            ]
+          },
+          {
+            "check_id": "IndAS18-2",
+            "requirement": "Disaggregation of Revenue",
+            "status": "MISSING",
+            "symbol": "⚠️",
+            "mandatory": false,
+            "weight": 4,
+            "evidence": null,
+            "keywords_searched": [
+              "disaggregation of revenue",
+              "revenue by segment",
+              "revenue by geography"
+            ]
+          }
+        ],
+        "compliant_count": 1,
+        "total_count": 2
+      },
+      {
+        "standard_id": "IndAS-24",
+        "standard_name": "Related Party Disclosures",
+        "category": "related_parties",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "IndAS24-1",
+            "requirement": "List of Related Parties",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": "ed subsidiary of the company with the company be and is hereby accorded to the material related its related parties as detailed in the explanatory statement to this party transaction(s)/ contract(s)/ arrangement(s)/",
+            "keywords_searched": [
+              "related parties",
+              "related party",
+              "list of related parties",
+              "name of related party"
+            ]
+          },
+          {
+            "check_id": "IndAS24-2",
+            "requirement": "Related Party Transactions",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 9,
+            "evidence": "rd may think fit and suitable.” the report of the auditors thereon. item no. 5. to approve material related party transactions item no. 2. declaration of dividend of dixon electro appliances private limited, subsidiary/ joint",
+            "keywords_searched": [
+              "related party transaction",
+              "transactions with related parties",
+              "amount of transaction"
+            ]
+          },
+          {
+            "check_id": "IndAS24-3",
+            "requirement": "Key Management Personnel Compensation",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 7,
+            "evidence": null,
+            "keywords_searched": [
+              "key management personnel",
+              "kmp",
+              "managerial remuneration",
+              "compensation of key management"
+            ]
+          },
+          {
+            "check_id": "IndAS24-4",
+            "requirement": "Outstanding Balances with Related Parties",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "outstanding balance",
+              "receivable from related",
+              "payable to related"
+            ]
+          }
+        ],
+        "compliant_count": 2,
+        "total_count": 4
+      },
+      {
+        "standard_id": "IndAS-36",
+        "standard_name": "Impairment of Assets",
+        "category": "impairment",
+        "priority": "MEDIUM",
+        "checks": [
+          {
+            "check_id": "IndAS36-1",
+            "requirement": "Impairment Testing/Disclosure",
+            "status": "MISSING",
+            "symbol": "⚠️",
+            "mandatory": false,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "impairment",
+              "impairment loss",
+              "recoverable amount",
+              "value in use"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 1
+      },
+      {
+        "standard_id": "IndAS-109",
+        "standard_name": "Financial Instruments",
+        "category": "financial_instruments",
+        "priority": "MEDIUM",
+        "checks": [
+          {
+            "check_id": "IndAS109-1",
+            "requirement": "Classification of Financial Instruments",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 6,
+            "evidence": null,
+            "keywords_searched": [
+              "financial instruments",
+              "financial assets",
+              "financial liabilities",
+              "amortised cost",
+              "fair value"
+            ]
+          },
+          {
+            "check_id": "IndAS109-2",
+            "requirement": "Fair Value Hierarchy",
+            "status": "MISSING",
+            "symbol": "⚠️",
+            "mandatory": false,
+            "weight": 4,
+            "evidence": null,
+            "keywords_searched": [
+              "fair value hierarchy",
+              "level 1",
+              "level 2",
+              "level 3",
+              "fair value measurement"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 2
+      },
+      {
+        "standard_id": "Schedule-III",
+        "standard_name": "Schedule III - Format of Financial Statements",
+        "category": "format",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "Sch3-1",
+            "requirement": "Current and Non-Current Classification",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 8,
+            "evidence": null,
+            "keywords_searched": [
+              "current assets",
+              "non-current assets",
+              "current liabilities",
+              "non-current liabilities"
+            ]
+          },
+          {
+            "check_id": "Sch3-2",
+            "requirement": "Trade Receivables Ageing",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "trade receivables",
+              "outstanding for",
+              "less than 6 months",
+              "more than 6 months"
+            ]
+          },
+          {
+            "check_id": "Sch3-3",
+            "requirement": "Contingent Liabilities Disclosure",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 6,
+            "evidence": null,
+            "keywords_searched": [
+              "contingent liabilities",
+              "contingent assets",
+              "commitments"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 3
+      },
+      {
+        "standard_id": "SEBI-LODR",
+        "standard_name": "SEBI Listing Obligations and Disclosure Requirements",
+        "category": "listing_requirements",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "SEBI1",
+            "requirement": "Corporate Governance Report",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 7,
+            "evidence": "re-a, and are also provided in the from 1st april, 2022. under the listing regulations, in addition corporate governance report forming part of the annual report. to the approval and reporting for transactions by the com",
+            "keywords_searched": [
+              "corporate governance",
+              "board of directors",
+              "audit committee",
+              "governance report"
+            ]
+          },
+          {
+            "check_id": "SEBI2",
+            "requirement": "Management Discussion and Analysis",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 6,
+            "evidence": "l statements already seen encouraging demand, and our everyday operations is not only the right 138 management discussion and we’re now stepping into new categories thing to do but also the smartest way to ensure 315 cons",
+            "keywords_searched": [
+              "management discussion",
+              "md&a",
+              "management's discussion and analysis"
+            ]
+          },
+          {
+            "check_id": "SEBI3",
+            "requirement": "Board Composition",
+            "status": "COMPLIANT",
+            "symbol": "✅",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": "and personnel who is related, if any and nature rule made thereunder, all the directors other than independent directors of relationship and key managerial personnel of the company or their relatives shall be deemed to b",
+            "keywords_searched": [
+              "board composition",
+              "independent directors",
+              "executive directors",
+              "non-executive directors"
+            ]
+          }
+        ],
+        "compliant_count": 3,
+        "total_count": 3
+      },
+      {
+        "standard_id": "Auditor-Report",
+        "standard_name": "Independent Auditor's Report",
+        "category": "audit",
+        "priority": "HIGH",
+        "checks": [
+          {
+            "check_id": "AUD1",
+            "requirement": "Auditor's Opinion",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 10,
+            "evidence": null,
+            "keywords_searched": [
+              "independent auditor",
+              "auditor's report",
+              "opinion",
+              "unqualified opinion",
+              "qualified opinion"
+            ]
+          },
+          {
+            "check_id": "AUD2",
+            "requirement": "Key Audit Matters",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 6,
+            "evidence": null,
+            "keywords_searched": [
+              "key audit matters",
+              "kam",
+              "matters of most significance"
+            ]
+          },
+          {
+            "check_id": "AUD3",
+            "requirement": "Basis for Opinion",
+            "status": "NON-COMPLIANT",
+            "symbol": "❌",
+            "mandatory": true,
+            "weight": 5,
+            "evidence": null,
+            "keywords_searched": [
+              "basis for opinion",
+              "conducted our audit",
+              "auditing standards"
+            ]
+          }
+        ],
+        "compliant_count": 0,
+        "total_count": 3
+      }
+    ],
+    "document_length": 165897,
+    "timestamp": "2026-02-16 01:59:04"
+  }
+}

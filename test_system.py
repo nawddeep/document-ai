@@ -1,10 +1,5 @@
 """
-Financial Compliance AI - Main Entry Point
-Author: Nawddeep
-Date: February 2026
-
-Usage:
-    python3 main.py
+Test the complete system automatically
 """
 
 import sys
@@ -18,37 +13,29 @@ from src.document_processor import DocumentProcessor
 from src.compliance_checker import ComplianceChecker
 
 
-def main():
+def test_system():
     """
-    Main execution function
+    Test the complete system
     """
     print("="*70)
-    print("🎯 FINANCIAL COMPLIANCE CHECKER")
+    print("🎯 FINANCIAL COMPLIANCE CHECKER - TEST")
     print("   IndiaAI Challenge 2026")
     print("="*70)
     
     # Configuration
     RULES_PATH = "data/regulations/rules_index.json"
     OUTPUT_DIR = "data/outputs"
+    PDF_PATH = "data/sample_document/Dixon_2025.pdf"
     
     # Create output directory
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
-    # Get PDF path from user
-    print("\n📄 Enter PDF file path:")
-    print("   (or press Enter for default: data/sample_document/Dixon_2025.pdf)")
-    
-    pdf_path = input("   Path: ").strip()
-    
-    if not pdf_path:
-        pdf_path = "data/sample_document/Dixon_2025.pdf"
-    
     # Validate file
-    if not os.path.exists(pdf_path):
-        print(f"\n❌ Error: File not found: {pdf_path}")
+    if not os.path.exists(PDF_PATH):
+        print(f"\n❌ Error: File not found: {PDF_PATH}")
         return
     
-    print(f"\n✅ Processing: {os.path.basename(pdf_path)}")
+    print(f"\n✅ Processing: {os.path.basename(PDF_PATH)}")
     
     # STEP 1: Extract text
     print("\n" + "="*70)
@@ -57,8 +44,8 @@ def main():
     
     processor = DocumentProcessor(verbose=True)
     extraction_result = processor.extract_text_from_pdf(
-        pdf_path,
-        max_pages=100  # Process first 100 pages
+        PDF_PATH,
+        max_pages=50  # Process first 50 pages for testing
     )
     
     if not extraction_result['text']:
@@ -96,7 +83,7 @@ def main():
     output_file = os.path.join(OUTPUT_DIR, "compliance_report.json")
     
     report_data = {
-        'pdf_file': os.path.basename(pdf_path),
+        'pdf_file': os.path.basename(PDF_PATH),
         'extraction_stats': stats,
         'compliance_results': compliance_results
     }
@@ -133,9 +120,7 @@ def main():
 
 if __name__ == "__main__":
     try:
-        main()
-    except KeyboardInterrupt:
-        print("\n\n⚠️  Process interrupted by user")
+        test_system()
     except Exception as e:
         print(f"\n\n❌ Error: {str(e)}")
         import traceback

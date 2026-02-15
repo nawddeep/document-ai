@@ -1,0 +1,561 @@
+{
+  "IndAS-1": {
+    "standard_id": "IndAS-1",
+    "name": "Presentation of Financial Statements",
+    "category": "financial_statements",
+    "priority": "HIGH",
+    "description": "Prescribes the basis for presentation of general purpose financial statements",
+    "checks": [
+      {
+        "id": "IndAS1-1",
+        "requirement": "Balance Sheet / Statement of Financial Position",
+        "keywords": [
+          "balance sheet",
+          "statement of financial position",
+          "assets and liabilities"
+        ],
+        "mandatory": true,
+        "weight": 10
+      },
+      {
+        "id": "IndAS1-2",
+        "requirement": "Statement of Profit and Loss",
+        "keywords": [
+          "profit and loss",
+          "statement of profit",
+          "income statement",
+          "profit or loss"
+        ],
+        "mandatory": true,
+        "weight": 10
+      },
+      {
+        "id": "IndAS1-3",
+        "requirement": "Statement of Cash Flows",
+        "keywords": [
+          "cash flow statement",
+          "statement of cash flows",
+          "cash flows from"
+        ],
+        "mandatory": true,
+        "weight": 10
+      },
+      {
+        "id": "IndAS1-4",
+        "requirement": "Statement of Changes in Equity",
+        "keywords": [
+          "changes in equity",
+          "statement of changes in equity",
+          "equity movement"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS1-5",
+        "requirement": "Notes to Financial Statements",
+        "keywords": [
+          "notes to accounts",
+          "notes forming part",
+          "notes to financial statements",
+          "accounting policies"
+        ],
+        "mandatory": true,
+        "weight": 10
+      },
+      {
+        "id": "IndAS1-6",
+        "requirement": "Comparative Information",
+        "keywords": [
+          "previous year",
+          "comparative",
+          "prior period",
+          "corresponding figures"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-7": {
+    "standard_id": "IndAS-7",
+    "name": "Statement of Cash Flows",
+    "category": "cash_flow",
+    "priority": "HIGH",
+    "description": "Requires information about historical changes in cash and cash equivalents",
+    "checks": [
+      {
+        "id": "IndAS7-1",
+        "requirement": "Cash Flows from Operating Activities",
+        "keywords": [
+          "cash flow from operating",
+          "operating activities",
+          "cash generated from operations"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS7-2",
+        "requirement": "Cash Flows from Investing Activities",
+        "keywords": [
+          "cash flow from investing",
+          "investing activities",
+          "purchase of fixed assets",
+          "sale of investments"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS7-3",
+        "requirement": "Cash Flows from Financing Activities",
+        "keywords": [
+          "cash flow from financing",
+          "financing activities",
+          "proceeds from borrowings",
+          "repayment of borrowings"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS7-4",
+        "requirement": "Net Increase/Decrease in Cash",
+        "keywords": [
+          "net increase in cash",
+          "net decrease in cash",
+          "cash and cash equivalents at the end"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-8": {
+    "standard_id": "IndAS-8",
+    "name": "Accounting Policies, Changes in Estimates and Errors",
+    "category": "policies",
+    "priority": "MEDIUM",
+    "description": "Defines criteria for selecting and changing accounting policies",
+    "checks": [
+      {
+        "id": "IndAS8-1",
+        "requirement": "Significant Accounting Policies",
+        "keywords": [
+          "significant accounting policies",
+          "accounting policies",
+          "basis of preparation"
+        ],
+        "mandatory": true,
+        "weight": 7
+      },
+      {
+        "id": "IndAS8-2",
+        "requirement": "Changes in Accounting Policies",
+        "keywords": [
+          "change in accounting policy",
+          "retrospective application",
+          "change in estimate"
+        ],
+        "mandatory": false,
+        "weight": 3
+      }
+    ]
+  },
+  "IndAS-10": {
+    "standard_id": "IndAS-10",
+    "name": "Events After the Reporting Period",
+    "category": "subsequent_events",
+    "priority": "MEDIUM",
+    "description": "Prescribes when an entity should adjust its financial statements for events after the reporting period",
+    "checks": [
+      {
+        "id": "IndAS10-1",
+        "requirement": "Date of Authorization",
+        "keywords": [
+          "date of authorization",
+          "authorized for issue",
+          "date when financial statements were authorized"
+        ],
+        "mandatory": true,
+        "weight": 4
+      },
+      {
+        "id": "IndAS10-2",
+        "requirement": "Events After Reporting Period Disclosure",
+        "keywords": [
+          "events after reporting period",
+          "subsequent events",
+          "events after balance sheet date"
+        ],
+        "mandatory": false,
+        "weight": 3
+      }
+    ]
+  },
+  "IndAS-12": {
+    "standard_id": "IndAS-12",
+    "name": "Income Taxes",
+    "category": "taxation",
+    "priority": "HIGH",
+    "description": "Prescribes the accounting treatment for income taxes",
+    "checks": [
+      {
+        "id": "IndAS12-1",
+        "requirement": "Current Tax",
+        "keywords": [
+          "current tax",
+          "tax expense",
+          "income tax expense"
+        ],
+        "mandatory": true,
+        "weight": 6
+      },
+      {
+        "id": "IndAS12-2",
+        "requirement": "Deferred Tax Assets/Liabilities",
+        "keywords": [
+          "deferred tax",
+          "deferred tax asset",
+          "deferred tax liability"
+        ],
+        "mandatory": true,
+        "weight": 7
+      },
+      {
+        "id": "IndAS12-3",
+        "requirement": "Tax Reconciliation",
+        "keywords": [
+          "reconciliation of tax expense",
+          "effective tax rate",
+          "tax reconciliation"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-16": {
+    "standard_id": "IndAS-16",
+    "name": "Property, Plant and Equipment",
+    "category": "fixed_assets",
+    "priority": "HIGH",
+    "description": "Prescribes the accounting treatment for property, plant and equipment",
+    "checks": [
+      {
+        "id": "IndAS16-1",
+        "requirement": "PPE Reconciliation/Movement",
+        "keywords": [
+          "property plant and equipment",
+          "ppe",
+          "fixed assets",
+          "gross block",
+          "reconciliation of carrying amount"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS16-2",
+        "requirement": "Depreciation",
+        "keywords": [
+          "depreciation",
+          "accumulated depreciation",
+          "depreciation rate",
+          "useful life"
+        ],
+        "mandatory": true,
+        "weight": 7
+      },
+      {
+        "id": "IndAS16-3",
+        "requirement": "Additions and Disposals",
+        "keywords": [
+          "additions",
+          "disposals",
+          "deletions",
+          "acquired",
+          "sold"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-18": {
+    "standard_id": "IndAS-18",
+    "name": "Revenue from Contracts with Customers",
+    "category": "revenue",
+    "priority": "HIGH",
+    "description": "Establishes principles for reporting information about revenue",
+    "checks": [
+      {
+        "id": "IndAS18-1",
+        "requirement": "Revenue Recognition",
+        "keywords": [
+          "revenue from operations",
+          "revenue recognition",
+          "sale of products",
+          "rendering of services"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS18-2",
+        "requirement": "Disaggregation of Revenue",
+        "keywords": [
+          "disaggregation of revenue",
+          "revenue by segment",
+          "revenue by geography"
+        ],
+        "mandatory": false,
+        "weight": 4
+      }
+    ]
+  },
+  "IndAS-24": {
+    "standard_id": "IndAS-24",
+    "name": "Related Party Disclosures",
+    "category": "related_parties",
+    "priority": "HIGH",
+    "description": "Requires disclosure of related party relationships and transactions",
+    "checks": [
+      {
+        "id": "IndAS24-1",
+        "requirement": "List of Related Parties",
+        "keywords": [
+          "related parties",
+          "related party",
+          "list of related parties",
+          "name of related party"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "IndAS24-2",
+        "requirement": "Related Party Transactions",
+        "keywords": [
+          "related party transaction",
+          "transactions with related parties",
+          "amount of transaction"
+        ],
+        "mandatory": true,
+        "weight": 9
+      },
+      {
+        "id": "IndAS24-3",
+        "requirement": "Key Management Personnel Compensation",
+        "keywords": [
+          "key management personnel",
+          "kmp",
+          "managerial remuneration",
+          "compensation of key management"
+        ],
+        "mandatory": true,
+        "weight": 7
+      },
+      {
+        "id": "IndAS24-4",
+        "requirement": "Outstanding Balances with Related Parties",
+        "keywords": [
+          "outstanding balance",
+          "receivable from related",
+          "payable to related"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-36": {
+    "standard_id": "IndAS-36",
+    "name": "Impairment of Assets",
+    "category": "impairment",
+    "priority": "MEDIUM",
+    "description": "Ensures assets are carried at no more than their recoverable amount",
+    "checks": [
+      {
+        "id": "IndAS36-1",
+        "requirement": "Impairment Testing/Disclosure",
+        "keywords": [
+          "impairment",
+          "impairment loss",
+          "recoverable amount",
+          "value in use"
+        ],
+        "mandatory": false,
+        "weight": 5
+      }
+    ]
+  },
+  "IndAS-109": {
+    "standard_id": "IndAS-109",
+    "name": "Financial Instruments",
+    "category": "financial_instruments",
+    "priority": "MEDIUM",
+    "description": "Establishes principles for financial reporting of financial assets and liabilities",
+    "checks": [
+      {
+        "id": "IndAS109-1",
+        "requirement": "Classification of Financial Instruments",
+        "keywords": [
+          "financial instruments",
+          "financial assets",
+          "financial liabilities",
+          "amortised cost",
+          "fair value"
+        ],
+        "mandatory": true,
+        "weight": 6
+      },
+      {
+        "id": "IndAS109-2",
+        "requirement": "Fair Value Hierarchy",
+        "keywords": [
+          "fair value hierarchy",
+          "level 1",
+          "level 2",
+          "level 3",
+          "fair value measurement"
+        ],
+        "mandatory": false,
+        "weight": 4
+      }
+    ]
+  },
+  "Schedule-III": {
+    "standard_id": "Schedule-III",
+    "name": "Schedule III - Format of Financial Statements",
+    "category": "format",
+    "priority": "HIGH",
+    "description": "Prescribes the format for Balance Sheet and Statement of Profit and Loss",
+    "checks": [
+      {
+        "id": "Sch3-1",
+        "requirement": "Current and Non-Current Classification",
+        "keywords": [
+          "current assets",
+          "non-current assets",
+          "current liabilities",
+          "non-current liabilities"
+        ],
+        "mandatory": true,
+        "weight": 8
+      },
+      {
+        "id": "Sch3-2",
+        "requirement": "Trade Receivables Ageing",
+        "keywords": [
+          "trade receivables",
+          "outstanding for",
+          "less than 6 months",
+          "more than 6 months"
+        ],
+        "mandatory": true,
+        "weight": 5
+      },
+      {
+        "id": "Sch3-3",
+        "requirement": "Contingent Liabilities Disclosure",
+        "keywords": [
+          "contingent liabilities",
+          "contingent assets",
+          "commitments"
+        ],
+        "mandatory": true,
+        "weight": 6
+      }
+    ]
+  },
+  "SEBI-LODR": {
+    "standard_id": "SEBI-LODR",
+    "name": "SEBI Listing Obligations and Disclosure Requirements",
+    "category": "listing_requirements",
+    "priority": "HIGH",
+    "description": "Requirements for listed companies under SEBI regulations",
+    "checks": [
+      {
+        "id": "SEBI1",
+        "requirement": "Corporate Governance Report",
+        "keywords": [
+          "corporate governance",
+          "board of directors",
+          "audit committee",
+          "governance report"
+        ],
+        "mandatory": true,
+        "weight": 7
+      },
+      {
+        "id": "SEBI2",
+        "requirement": "Management Discussion and Analysis",
+        "keywords": [
+          "management discussion",
+          "md&a",
+          "management's discussion and analysis"
+        ],
+        "mandatory": true,
+        "weight": 6
+      },
+      {
+        "id": "SEBI3",
+        "requirement": "Board Composition",
+        "keywords": [
+          "board composition",
+          "independent directors",
+          "executive directors",
+          "non-executive directors"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  },
+  "Auditor-Report": {
+    "standard_id": "Auditor-Report",
+    "name": "Independent Auditor's Report",
+    "category": "audit",
+    "priority": "HIGH",
+    "description": "Requirements for auditor's report",
+    "checks": [
+      {
+        "id": "AUD1",
+        "requirement": "Auditor's Opinion",
+        "keywords": [
+          "independent auditor",
+          "auditor's report",
+          "opinion",
+          "unqualified opinion",
+          "qualified opinion"
+        ],
+        "mandatory": true,
+        "weight": 10
+      },
+      {
+        "id": "AUD2",
+        "requirement": "Key Audit Matters",
+        "keywords": [
+          "key audit matters",
+          "kam",
+          "matters of most significance"
+        ],
+        "mandatory": true,
+        "weight": 6
+      },
+      {
+        "id": "AUD3",
+        "requirement": "Basis for Opinion",
+        "keywords": [
+          "basis for opinion",
+          "conducted our audit",
+          "auditing standards"
+        ],
+        "mandatory": true,
+        "weight": 5
+      }
+    ]
+  }
+}
