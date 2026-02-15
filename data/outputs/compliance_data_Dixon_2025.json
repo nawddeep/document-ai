@@ -1,28 +1,28 @@
 {
   "pdf_file": "Dixon_2025.pdf",
   "extraction_stats": {
-    "total_characters": 336186,
-    "total_words": 49759,
-    "total_lines": 6370,
-    "total_pages": 100,
-    "pages_with_content": 100,
-    "avg_chars_per_page": 3359.86,
+    "total_characters": 507885,
+    "total_words": 75558,
+    "total_lines": 10521,
+    "total_pages": 150,
+    "pages_with_content": 150,
+    "avg_chars_per_page": 3383.9,
     "method": "digital"
   },
   "document_structure": {
-    "total_pages": 100,
-    "sections_found": 5
+    "total_pages": 150,
+    "sections_found": 7
   },
-  "tables_found": 43,
+  "tables_found": 95,
   "compliance_results": {
     "summary": {
       "total_checks": 38,
-      "compliant": 18,
-      "non_compliant": 16,
+      "compliant": 25,
+      "non_compliant": 9,
       "missing": 4,
       "total_weight": 251,
-      "achieved_weight": 129,
-      "compliance_score": 51.39
+      "achieved_weight": 182,
+      "compliance_score": 72.51
     },
     "detailed_results": [
       {
@@ -48,11 +48,11 @@
           {
             "check_id": "IndAS1-2",
             "requirement": "Statement of Profit and Loss",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 10,
-            "evidence": null,
+            "evidence": "the company at after the end of year on 17th april, 2025. the end of the financial year and of the profit and loss of the company for that period; also, the company had organized training programmes concerning sexu",
             "keywords_searched": [
               "profit and loss",
               "statement of profit",
@@ -119,7 +119,7 @@
             ]
           }
         ],
-        "compliant_count": 4,
+        "compliant_count": 5,
         "total_count": 6
       },
       {
@@ -199,11 +199,11 @@
           {
             "check_id": "IndAS8-1",
             "requirement": "Significant Accounting Policies",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 7,
-            "evidence": null,
+            "evidence": "relating to material departures no. of complaints disposed of 1 b. the directors have selected such accounting policies no. of complaints pending 1 and applied them consistently and made judgments and note: of the 2 (tw",
             "keywords_searched": [
               "significant accounting policies",
               "accounting policies",
@@ -225,7 +225,7 @@
             ]
           }
         ],
-        "compliant_count": 0,
+        "compliant_count": 1,
         "total_count": 2
       },
       {
@@ -452,11 +452,11 @@
           {
             "check_id": "IndAS24-3",
             "requirement": "Key Management Personnel Compensation",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 7,
-            "evidence": null,
+            "evidence": "ernance report. the same is also available on the website of the company key managerial personnel (“kmps”) and can be accessed at web link https://www.dixoninfo.com/ pursuant to the provisions of section",
             "keywords_searched": [
               "key management personnel",
               "kmp",
@@ -479,7 +479,7 @@
             ]
           }
         ],
-        "compliant_count": 2,
+        "compliant_count": 3,
         "total_count": 4
       },
       {
@@ -516,11 +516,11 @@
           {
             "check_id": "IndAS109-1",
             "requirement": "Classification of Financial Instruments",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 6,
-            "evidence": null,
+            "evidence": "ation/ variation has been made in terms of options granted by the company. 2 method used to account fair value method for esop 3 employee wise details of none the details are available none options granted duri",
             "keywords_searched": [
               "financial instruments",
               "financial assets",
@@ -546,7 +546,7 @@
             ]
           }
         ],
-        "compliant_count": 0,
+        "compliant_count": 1,
         "total_count": 2
       },
       {
@@ -558,11 +558,11 @@
           {
             "check_id": "Sch3-1",
             "requirement": "Current and Non-Current Classification",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 8,
-            "evidence": null,
+            "evidence": "tional items) 47.5% 25.2% *(gross debt- cash & bank balance)/ total equity ** ebit/finance cost *** current assets/ current liabilities # income from operations/receivables ## cost of goods sold/inventory ### opera",
             "keywords_searched": [
               "current assets",
               "non-current assets",
@@ -600,7 +600,7 @@
             ]
           }
         ],
-        "compliant_count": 1,
+        "compliant_count": 2,
         "total_count": 3
       },
       {
@@ -645,7 +645,7 @@
             "symbol": "✅",
             "mandatory": true,
             "weight": 5,
-            "evidence": "and personnel who is related, if any and nature rule made thereunder, all the directors other than independent directors of relationship and key managerial personnel of the company or their relatives shall be deemed to b",
+            "evidence": "e focused on the future board of directors directors including one independent woman director. the board composition is in conformity with the applicable provisions the company’s board of directors (“board”) are resp",
             "keywords_searched": [
               "board composition",
               "independent directors",
@@ -666,11 +666,11 @@
           {
             "check_id": "AUD1",
             "requirement": "Auditor's Opinion",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 10,
-            "evidence": null,
+            "evidence": "d that they hold a valid certificate issued by the peer m/s s.n. dhawan & co. llp review board. the independent auditors report given by the auditors on the financial statement (standalone and consolidated) of your comp",
             "keywords_searched": [
               "independent auditor",
               "auditor's report",
@@ -696,11 +696,11 @@
           {
             "check_id": "AUD3",
             "requirement": "Basis for Opinion",
-            "status": "NON-COMPLIANT",
-            "symbol": "❌",
+            "status": "COMPLIANT",
+            "symbol": "✅",
             "mandatory": true,
             "weight": 5,
-            "evidence": null,
+            "evidence": "ed the audit in accordance with and regulations made thereunder to the extent of foreign applicable auditing standards issued by the institute of direct investment, overseas direct investment and external company secre",
             "keywords_searched": [
               "basis for opinion",
               "conducted our audit",
@@ -708,11 +708,11 @@
             ]
           }
         ],
-        "compliant_count": 1,
+        "compliant_count": 3,
         "total_count": 3
       }
     ],
-    "document_length": 336186,
-    "timestamp": "2026-02-16 02:12:09"
+    "document_length": 507885,
+    "timestamp": "2026-02-16 02:51:11"
   }
 }
