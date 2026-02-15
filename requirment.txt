@@ -1,21 +1,33 @@
-pdfplumber
-pymupdf
-camelot-py[cv]
-tabula-py
-pytesseract
-pdf2image
-easyocr
-pillow
-transformers
-torch
-sentence-transformers
-chromadb
-openai
-anthropic
-fastapi
-streamlit
-pandas
-openpyxl
-scikit-learn
-rouge-score
-bert-score
+# Financial Compliance AI - Requirements
+# Pin versions for reproducibility
+
+# PDF Processing
+pdfplumber==0.11.9
+pymupdf==1.27.1
+pdf2image==1.17.0
+pytesseract==0.3.13
+
+# Image Processing
+Pillow==12.1.1
+opencv-python-headless==4.13.0.92
+
+# Data Processing
+pandas==2.3.3
+numpy==2.4.2
+openpyxl==3.1.5
+
+# Optional: Advanced features (not required for basic functionality)
+# camelot-py[cv]
+# tabula-py
+# easyocr
+# transformers
+# torch
+# sentence-transformers
+# chromadb
+# openai
+# anthropic
+# fastapi
+# streamlit
+# scikit-learn
+# rouge-score
+# bert-score
